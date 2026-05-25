@@ -16,7 +16,7 @@ pinned: false
 
 Practice implementing operators and architectures from scratch — the exact skills top ML teams test for.
 
-*Like LeetCode, but for tensors. Self-hosted. Jupyter-based. Instant feedback.*
+*An interactive coding platform, but for tensors. Self-hosted. Jupyter-based. Instant feedback.*
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
@@ -99,6 +99,25 @@ make run
 `make run` will try the prebuilt image first and automatically fall back to a local build when needed.
 
 Open **<http://localhost:8888>** — that's it. Works with both Docker and Podman (auto-detected).
+
+### Option 3 — Standalone Web UI (Next.js + FastAPI)
+
+For a modern, standalone coding experience with an integrated IDE and dual-pane layout:
+
+1. **Start Backend (FastAPI):**
+   ```bash
+   pip install -r api/requirements.txt
+   python -m uvicorn api.main:app --port 8000 --reload
+   ```
+2. **Start Frontend (Next.js):**
+   ```bash
+   cd web
+   npm install
+   npm run dev
+   ```
+3. Open **<http://localhost:3000>** in your browser.
+
+![TorchCode UI Preview](assets/ui_preview.png)
 
 ---
 
