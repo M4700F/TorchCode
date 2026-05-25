@@ -386,6 +386,20 @@ Thanks to everyone who has contributed to TorchCode.
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/abhijitmjj">
+                    <img src="https://avatars.githubusercontent.com/u/22732909?v=4" width="100;" alt="abhijitmjj"/>
+                    <br />
+                    <sub><b>abhijitmjj</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/HareshKarnan">
+                    <img src="https://avatars.githubusercontent.com/u/5285984?v=4" width="100;" alt="HareshKarnan"/>
+                    <br />
+                    <sub><b>HareshKarnan</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/ThierryHJ">
                     <img src="https://avatars.githubusercontent.com/u/51846529?v=4" width="100;" alt="ThierryHJ"/>
                     <br />
